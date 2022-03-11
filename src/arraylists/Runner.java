@@ -21,8 +21,19 @@ public class Runner {
 		
 		System.out.println(pplNames.get(5));	// get element from list by index
 		
-		pplNames.set(0, "6th name here");
-		System.out.println(pplNames.get(0));
+		
+		pplNames.set(0, "1st name here");
+		pplNames.set(5, "6th name here");
+		System.out.println(pplNames.get(0));		//set items into the list by index ref
+		System.out.println(pplNames);
+		
+		
+		pplNames.remove(0);							//remove elements by index
+		System.out.println(pplNames);
+		
+		System.out.println(pplNames.size());		//print size of arraylist in current state
+		
+		pplNames.clear();
 		System.out.println(pplNames);
 		
 		Scanner sc  = new Scanner(System.in);
@@ -32,7 +43,16 @@ public class Runner {
 		pplNames.add(str);
 		System.out.println(pplNames);
 		
+		pplNames.add("bob");
+		pplNames.add("john");
+		pplNames.add("badul");
+		pplNames.add("test name 3");		//adding elements to the list
+		pplNames.add("test name 2");
+		pplNames.add("test name");
 		
+		for (int i = 0; i < pplNames.size(); i++) {
+		    System.out.print(pplNames.get(i));
+		}
 		
 
 	}
