@@ -23,7 +23,7 @@ public class Results {
 		 System.out.println("Physics Grade:" + this.Physics+"/150");
 		 System.out.println("Chemistry Grade:" + this.Chemistry+"/150");
 		 System.out.println("Biology Grade:" + this.Biology+"/150");
-		 System.out.println(this.name + " total is:" + this.total+"/450");
+		 System.out.println(this.name + "total is:" + this.total+"/450");
 	 }
 	 
 	 public void methodTwo() {
