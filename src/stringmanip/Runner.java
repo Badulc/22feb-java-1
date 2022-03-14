@@ -26,6 +26,14 @@ public class Runner {
 			System.out.println("Word Count: "+words.length);
 			System.out.println(Arrays.toString(words));
 			
+			System.out.println(words.length);
+			
+			int y = words.length;
+			
+			for (int i=0;y<0;i++) {
+				System.out.println();
+			}
+			
 			
 			//seprate methods into classes... nned to work on
 
