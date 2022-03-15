@@ -1,5 +1,7 @@
 package operators;
 
+import java.util.Scanner;
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -16,6 +18,33 @@ public class Runner {
 		r.methodTwo();
 //		r.methodTwo();
 		
+//		System.out.println("enter a method");
+//		Scanner sc = new Scanner(System.in);
+//		String methodSelect = sc.nextLine();
+//		
+//		boolean flag = true;
+//		while  (flag) {
+////			(methodSelect.equals("add")
+//			
+//			
+//			System.out.println("enter num 1");
+//			Integer numOne = sc.nextInt();
+//			sc.nextLine(); //consume enter input
+//			System.out.println("enter num2");
+//			Integer numTwo = sc.nextInt();
+//			
+//		//System.out.println(numOne);
+//		}// else {
+//			//System.out.println("no method match");
+//			
+//		
+//		
+//		//System.out.println(methodSelect);
+//		
+//		
+//		sc.close();
 	}
 
 }
+
+

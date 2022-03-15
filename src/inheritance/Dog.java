@@ -14,15 +14,15 @@ public class Dog extends Animal {
 		this.setAge(3);
 		this.setNumOflegs(4);
 		this.setColous("brown");
-		this.breed = ("german s");
-				this.isPanting = true;
+		this.breed = ("bulldog");
+		this.isPanting = true;
 	}
 
 
 	@Override
 	public String toString() {
 		return "Dog [breed=" + breed + ", isPanting=" + isPanting + ", Age=" + getAge() + ", NumOflegs="
-				+ getNumOflegs() + ", c=" + getColous()+" " +"breed="+ breed + " "+ "panting"+ " "+isPanting + "]";
+				+ getNumOflegs() + ", c=" + getColous()+" " +"breed=" + " "+ breed+"panting"+ " "+isPanting + "]";
 	}
 	
 	

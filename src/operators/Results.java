@@ -1,5 +1,7 @@
 package operators;
 
+import java.util.Scanner;
+
 public class Results {
 	 
 	 public String name;
@@ -29,5 +31,18 @@ public class Results {
 	 public void methodTwo() {
 		this.percentage = (total * 100) / 450;
 		System.out.println("percent: " + this.percentage + " %");
+	 }
+	 
+	 public int method3() {
+		 Scanner sc = new Scanner(System.in);
+			System.out.println("enter num 1");
+			Integer numOne = sc.nextInt();
+			sc.nextLine(); //consume enter input
+			System.out.println("enter num2");
+			Integer numTwo = sc.nextInt();
+			return numOne+numTwo;
+//		 Scanner sc2 = new Scanner (System.in);
+//		 System.out.println("enter number");
+//		 Integer sc2.nextInt() = numOne;
 	 }
 }

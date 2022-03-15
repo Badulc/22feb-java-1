@@ -8,6 +8,8 @@ public class Runner {
 		Dog doggy = new Dog(10, 4, "brown", "daschund", true);
 		
 		System.out.println(doggy);
+		
+		
 
 	}
 
